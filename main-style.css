@@ -1,11 +1,14 @@
+/* Importação da Fonte Usada */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
+/* Reset */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+/* Estilo do Corpo da Página Juntamente a Um Container */
 body {
     background: #cc99d9;
     display: flex;
@@ -17,6 +20,7 @@ body {
 	font-size: 62.5%;
 }
 
+/* Estilo e Posicionamento do Coração Estático e do Coração Usado no Efeito de Pulsação */
 .coracao {
     position: relative;
     font-size: 14em;
@@ -37,6 +41,7 @@ body {
     animation: eco 2s linear infinite;
 }
 
+/* Efeito de Pulsação */
 @keyframes batimento-cardiaco {
     0% {
         transform: scale(1);
@@ -55,6 +60,7 @@ body {
     }
 }
 
+/* Efeito de Eco da Pulsação */
 @keyframes eco {
     0% {
         opacity: 0.5;
@@ -74,15 +80,17 @@ body {
     }
 }
 
+/* Estilo do Texto Abaixo do Coração Animado */
 .decaracao h1 {
     font-size: 3em;
     color: #9200b7;
     margin: 1em auto 0 auto;
 }
 
+/* Estilo e Efeito de Cursor de Digitação */
 .decaracao h1::after {
     content: "|";
-    animation: typing-cursor 0.8s linear infinite;
+    animation: typing-cursor 1.8s linear infinite;
 }
 
 @keyframes typing-cursor {

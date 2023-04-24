@@ -1,4 +1,4 @@
-window.addEventListener('load', (event) => {
+window.addEventListener('load', (event) => { // Chama a função assim que a janela terminou de carregar
     let contador = 0
     let declaracao = "Eu te amo, Juh!"
     let duracao = 100
@@ -10,6 +10,6 @@ window.addEventListener('load', (event) => {
             contador++
             setTimeout(digitador, duracao)
         }
-    }
+    } // A função digita letra por letra da declaração
     digitador()
 })
