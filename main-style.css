@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #cc99d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+	font-size: 62.5%;
+}
+
+.coracao {
+    position: relative;
+    font-size: 14em;
+}
+
+.batimento {
+    position: relative;
+    animation: batimento-cardiaco 2s linear infinite;
+    z-index: 1;
+}
+
+.eco {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    animation: eco 2s linear infinite;
+}
+
+@keyframes batimento-cardiaco {
+    0% {
+        transform: scale(1);
+    }
+    14% {
+        transform: scale(0.9);
+    }
+    21% {
+        transform: scale(1.1);
+    }
+    28% {
+        transform: scale(1);
+    }
+    35% {
+        transform: scale(1);
+    }
+}
+
+@keyframes eco {
+    0% {
+        opacity: 0.5;
+        transform: scale(1);
+    }
+    14% {
+        opacity: 0.4;
+        transform: scale(0.8);
+    }
+    21% {
+        opacity: 0.4;
+        transform: scale(1.1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(3);
+    }
+}
+
+.decaracao h1 {
+    font-size: 3em;
+    color: #9200b7;
+    margin: 1em auto 0 auto;
+}
+
+.decaracao h1::after {
+    content: "|";
+    animation: typing-cursor 0.8s linear infinite;
+}
+
+@keyframes typing-cursor {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
