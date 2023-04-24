@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias Usadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-sobre-o-tributo">Sobre o Tributo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-sobre-o-tributo">Sobre o Tributo</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
