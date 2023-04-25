@@ -11,13 +11,20 @@
 /* Estilo do Corpo da Página Juntamente a Um Container */
 body {
     background: #cc99d9;
+    font-family: 'Lobster', cursive;
+	font-size: 62.5%;
+    text-align: center;
+}
+
+main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-family: 'Lobster', cursive;
-    text-align: center;
-	font-size: 62.5%;
+    width: 98vw;
+    overflow: hidden;
+    margin: auto;
 }
 
 /* Estilo e Posicionamento do Coração Estático e do Coração Usado no Efeito de Pulsação */
